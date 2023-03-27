@@ -1,0 +1,35 @@
+/* Estilos del Terrario*/
+h1{
+    color: rgb(14, 184, 184);
+    text-align: center;
+    border-style: dashed;
+    border: 3px;
+ }
+
+ /*Selector de ID*/
+ #left-container{
+    background-color: #eee; /*color de fondo*/
+    width: 15%; /*ancho de borde*/
+    height: 100%; /*tamaño de la pantall*/
+    left: 0px;/*desplazamiento de borde de izquierda a derecha*/
+    top: 0px; 
+    position: absolute;
+    border: 3px; /*ancho de borde*/
+    border-style: dashed;
+    border-color: rgb(36, 171, 224);
+    padding: 10px;
+ }
+ #right-container{
+    background-color: #eee; /*color de fondo*/
+    width: 15%; /*ancho de borde*/
+    height: 100%; /*tamaño de la pantall*/
+    right: 0px;/*desplazamiento de borde de izquierda a derecha*/
+    top: 0px; 
+    position: absolute;
+    border: 3px;
+    border-style: dashed;
+    border-color: darkmagenta;
+    padding: 10px;
+
+ }
+ 
