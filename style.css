@@ -5,31 +5,40 @@ h1{
     border-style: dashed;
     border: 3px;
  }
+ .container{
+   background-color: #eee; /*color de fondo*/
+   width: 15%; /*ancho de borde*/
+   position: absolute; /* posicion absoluta*/
+   height: 100%; /*tamaño de la pantall*/
+   top: 10px; 
+   border: 3px; /*ancho de borde*/
+   border-style: dashed;
+   border-color: rgb(224, 89, 36);
+   padding: 10px;
+ }
 
  /*Selector de ID*/
  #left-container{
-    background-color: #eee; /*color de fondo*/
-    width: 15%; /*ancho de borde*/
-    height: 100%; /*tamaño de la pantall*/
+ 
     left: 0px;/*desplazamiento de borde de izquierda a derecha*/
-    top: 0px; 
-    position: absolute;
-    border: 3px; /*ancho de borde*/
-    border-style: dashed;
-    border-color: rgb(36, 171, 224);
-    padding: 10px;
+   
  }
  #right-container{
-    background-color: #eee; /*color de fondo*/
-    width: 15%; /*ancho de borde*/
-    height: 100%; /*tamaño de la pantall*/
+   
     right: 0px;/*desplazamiento de borde de izquierda a derecha*/
-    top: 0px; 
-    position: absolute;
-    border: 3px;
-    border-style: dashed;
-    border-color: darkmagenta;
-    padding: 10px;
-
+    
  }
- 
+ .plant-holder{
+   position: relative;    /*posicion relativa*/
+   height: 13%;           /*tamaño de contenedor*/
+   left: -10 px;          
+   border: 3px; /*ancho de borde*/
+   border-style: dashed;
+   border-color: rgb(6, 180, 211);
+ }
+ .plant{
+   position: absolute;
+   max-width: 150%;
+   max-height: 150%;
+   z-index: 2;
+ } /*webschool*/
